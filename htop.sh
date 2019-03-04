@@ -18,7 +18,7 @@ _msg() { case $@ in
   0) echo "The script will exit now."; exit 0 ;;
   1) echo "No route to server, or file do not exist on server"; _msg 0 ;;
   2) echo "Can't find ${FILE} on ${DIR}"; _msg 0 ;;
-  3) echo "NCurses Disk Usage installed and ready! (ONLY USE DURING A SSH SESSION)"; exit 0 ;;
+  3) echo "htop installed and ready! (ONLY USE DURING A SSH SESSION)"; exit 0 ;;
   4) echo "Always run this script using the full path: /mnt/.../directory/htop.sh"; _msg 0 ;;
 esac ; exit 0; }
 #----------------------- Check for full path ------------------------------------------------------------
