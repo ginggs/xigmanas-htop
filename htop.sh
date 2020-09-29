@@ -14,7 +14,7 @@ PLATFORM=`uname -m`
 RELEASE=`uname -r | cut -d- -f1`
 REL_MAJOR=`echo $RELEASE | cut -d. -f1`
 REL_MINOR=`echo $RELEASE | cut -d. -f2`
-URL="https://github.com/ginggs/xigmanas-htop/archive"
+URL="https://github.com/ginggs/xigmanas-htop/releases/download/12.1.0.4-htop-3.0.2"
 HTOPFILE="htop-3.0.2.txz"
 #----------------------- Set Errors ---------------------------------------------------------------------
 _msg() { case $@ in
